@@ -10,6 +10,8 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>edu-student-server</module>
+      <module>eurekaserver7001</module>
+      <module>eurekaserver7002</module>
   </modules>
 
   <properties>
