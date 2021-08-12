@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.edu.stu.mapper.StudentMapper">
+   <insert id="addStuendt" parameterType="com.edu.stu.domain.StudentDomain">
+       insert into student (stuName,stuPhone,stuAddress,stuSex,stuParents,stuParentsPhone,
+            stuNianji,stuIsVIP,stuVipCount,stuIsDel,stuPassword
+       ) values (#{stuName},#{stuPhone},#{stuAddress},#{stuSex},#{stuParents},#{stuParentsPhone},#{stuNianji},
+       0,0,0,123456)
+   </insert>
+    <delete id="delStudent" parameterType="int">
+        update student set stuIsDel = 1 where stuId = #{stuId}
+    </delete>
+    <select id="queryList" resultType="com.edu.stu.domain.StudentDomain">
+        select stuId,stuName,stuPhone,stuAddress,stuSex,stuParents,stuParentsPhone,
+            stuNianji,stuIsVIP,stuVipCount,stuIsDel,stuPassword  from student
+    </select>
+    <select id="queryByid" resultType="com.edu.stu.domain.StudentDomain">
+        select stuId,stuName,stuPhone,stuAddress,stuSex,stuParents,stuParentsPhone,
+            stuNianji,stuIsVIP,stuVipCount,stuIsDel,stuPassword  from student where stuId = #{stuId}
+    </select>
+    <update id="updateStudent" parameterType="com.edu.stu.domain.StudentDomain">
+        update student set stuName = #{stuName},stuPhone=#{stuPhone},stuAddress=#{stuAddress},
+            stuSex=#{stuSex},stuParents=#{stuParents},stuParentsPhone=#{stuParentsPhone},
+            stuNianji=#{stuNianji},stuPassword=${stuPassword} where stuId = #{stuId}
+    </update>
+    <update id="updateVip" parameterType="com.edu.stu.domain.StudentDomain">
+        update student set stuIsVIP = 1 , stuVipCount = #{stuVipCount} where stuId = #{stuId}
+    </update>
+</mapper>
