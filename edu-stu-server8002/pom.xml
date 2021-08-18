@@ -11,6 +11,11 @@
 
     <artifactId>edu-stu-server8002</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>edu.stu.common</groupId>
+            <artifactId>service-common</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!--hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
