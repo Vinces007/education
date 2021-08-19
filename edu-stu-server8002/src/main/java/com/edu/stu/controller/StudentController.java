@@ -26,7 +26,7 @@ public class StudentController {
     @RequestMapping("/login")
     public CommonResult login(String pass, String iphone){
         System.out.println("端口号为：：："+SERVER_PORT+"参数pass="+pass+"iphone = "+iphone);
-        String token = UUID.randomUUID().toString();
+        String token = UUID.randomUUID().toString()+"==="+"端口号为：：："+SERVER_PORT;
         return CommonResult.success(token);
     }
 

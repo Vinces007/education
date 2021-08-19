@@ -50,5 +50,10 @@ public class stuController {
         return message;
     }
 
+    @RequestMapping("/getEdu")
+    public CommonResult  getEdu(){
+        return CommonResult.success("success");
+    }
+
 
 }

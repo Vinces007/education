@@ -16,9 +16,10 @@ ribbon:
   ConnectTimeout: 5000
 feign:
   hystrix:
-    enabled: false
+    enabled: true
 
 logging:
   level:
     com.edu.stu.service.IEduStuService: debug
+
 

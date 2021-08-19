@@ -1,0 +1,31 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: Cloud-Gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: rout001
+          uri: http://localhost:9002
+          predicates:
+            - Path=/getEdu
+        - id: route002
+          uri: http://localhost:9002
+          predicates:
+            - Path=/login
+            - Query=pass
+            - Query=iphone
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: Cloud-Gateway9527
