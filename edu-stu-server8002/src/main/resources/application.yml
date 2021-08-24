@@ -11,6 +11,13 @@ spring:
   devtools:
     restart:
       enabled: true
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    port: 5672
+    virtual-host: /
+    publisher-returns: true
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.edu.stu.domain
@@ -22,7 +29,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+    enabled: false
   instance:
     hostname: edu-stu-server8002
     instance-id: edu-stu-server8002
     prefer-ip-address: true
+

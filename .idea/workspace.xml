@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44fb5e5e-70c7-402a-8a3d-5d4171827145" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eurekaserver7001/src/main/java/com/edu/eureka/eurekaServerMain.java" afterDir="false" />
+    <list default="true" id="44fb5e5e-70c7-402a-8a3d-5d4171827145" name="Default Changelist" comment="eureka">
+      <change afterPath="$PROJECT_DIR$/edu-stu-client/edu-stu-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-student-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-student-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-student-server/src/main/java/com/edu/stu/edustudentserverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-student-server/src/main/java/com/edu/stu/edustudentserverMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-student-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-student-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Gateway9527/src/main/java/edu/stu/gateway/filter/MyLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Gateway9527/src/main/java/edu/stu/gateway/filter/MyLogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-stu-server8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/eduStuServer8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/eduStuServer8002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver7001/target/classes/com/edu/eureka/eurekaServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver7002/target/classes/eureka/eurekaServerMain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1wbktwP0Rf5HPgULm2eDfbSBjXX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -51,27 +60,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eurekaserver7002/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="D:/Kedong/BiaoZhunBanNewPlan/NewPlant-WaiWang/houduan/px-trade-extranet-provinces-stable" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="eureka" />
+      <recent name="com.edu.stu.service.impl" />
+      <recent name="com.edu.stu.service" />
+      <recent name="com.edu.stu.mapper" />
+      <recent name="com.edu.stu.domain" />
+      <recent name="com.edu.stu.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\IDEAWorkSpace\edutiononline\eurekaserver7002\src\main\resources" />
-      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-student-server\src\main\resources\mapper" />
+      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server-8001\src\main\resources\mapper" />
+      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server-8001\src\main\resources" />
+      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server8002\src\main\resources" />
+      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server8002\src\main\java\com\edu\stu\service\impl" />
+      <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server8002\src\main\java\com\edu\stu\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,51 +102,102 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.eurekaServerMain (1)">
-    <configuration name="edustudentserverMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="edu-student-server" />
+  <component name="RunManager" selected="Application.eduStuServer8002">
+    <configuration name="CompressUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.utils.CompressUtils" />
+      <module name="edu-stu-server8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.stu.sport.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.dao.DataForm" />
+      <module name="edu-stu-server8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.stu.sport.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.dao.MyRun" />
+      <module name="edu-stu-server8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.stu.sport.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eduStuServer8002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.stu.eduStuServer8002" />
+      <module name="edu-stu-server8002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.edu.stu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.edustudentserverMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eurekaServerMain (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaserver7002" />
+    <configuration name="eduStuClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-stu-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eduStuServer8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="edu-stu-server8002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eureka.*" />
+          <option name="PATTERN" value="com.edu.stu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.eurekaServerMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuServer8002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eurekaServerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaserver7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edu.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.eureka.eurekaServerMain" />
+    <configuration name="shortMessageServerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="short-message-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.message.shortMessageServerMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.DataForm" />
+      <item itemvalue="Application.MyRun" />
+      <item itemvalue="Application.eduStuServer8002" />
+      <item itemvalue="Spring Boot.eduStuClient" />
+      <item itemvalue="Spring Boot.shortMessageServerMain" />
+      <item itemvalue="Spring Boot.eduStuServer8002" />
+      <item itemvalue="Application.CompressUtils" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.edustudentserverMain" />
-        <item itemvalue="Spring Boot.eurekaServerMain (1)" />
-        <item itemvalue="Spring Boot.eurekaServerMain" />
+        <item itemvalue="Application.eduStuServer8002" />
+        <item itemvalue="Application.MyRun" />
+        <item itemvalue="Application.CompressUtils" />
+        <item itemvalue="Spring Boot.eduStuServer8002" />
+        <item itemvalue="Application.DataForm" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +205,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.2878412" />
+          <option name="contentProportion" value="0.2299421" />
           <treeState>
             <expand>
               <path>
@@ -143,7 +215,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -163,69 +240,208 @@
       <option name="presentableId" value="Default" />
       <updated>1628734893238</updated>
       <workItem from="1628734895754" duration="10510000" />
-      <workItem from="1628755406214" duration="1830000" />
+      <workItem from="1628755406214" duration="2111000" />
+      <workItem from="1628815491555" duration="1344000" />
+      <workItem from="1629083967299" duration="13321000" />
+      <workItem from="1629180633007" duration="9311000" />
+      <workItem from="1629248825956" duration="2363000" />
+      <workItem from="1629255802436" duration="14443000" />
+      <workItem from="1629333524332" duration="4721000" />
+      <workItem from="1629344068377" duration="611000" />
+      <workItem from="1629356017897" duration="8259000" />
+      <workItem from="1629421554904" duration="6493000" />
+      <workItem from="1629449577913" duration="36000" />
+      <workItem from="1629450288824" duration="1972000" />
+      <workItem from="1629452348511" duration="1289000" />
+      <workItem from="1629681693999" duration="6466000" />
+      <workItem from="1629703468001" duration="5238000" />
+      <workItem from="1629710105485" duration="357000" />
+      <workItem from="1629764141804" duration="21774000" />
     </task>
+    <task id="LOCAL-00001" summary="eureka">
+      <created>1628757493827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628757493827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eureka">
+      <created>1629191914556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629191914556</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eureka">
+      <created>1629278316702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629278316702</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eureka">
+      <created>1629364511193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629364511193</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eureka">
+      <created>1629364619750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629364619750</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1628748173056">
+    <state x="233" y="42" key="#Project_Structure" timestamp="1629430529845">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1628748173056" />
-    <state x="457" y="151" key="FileChooserDialogImpl" timestamp="1628754279618">
+    <state x="233" y="42" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1629430529845" />
+    <state x="78" y="36" width="1142" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629363910940">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="457" y="151" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1628754279618" />
-    <state width="860" height="244" key="GridCell.Tab.0.bottom" timestamp="1628757441184">
+    <state x="78" y="36" width="1142" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1629363910940" />
+    <state x="432" y="87" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1629363227861">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.0.center" timestamp="1628757441184">
+    <state x="432" y="87" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.760@0.0.1280.760" timestamp="1629363227861" />
+    <state x="271" y="114" key="#com.intellij.ide.util.ExportDialog" timestamp="1629190887766">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.0.left" timestamp="1628757441184">
+    <state x="271" y="114" key="#com.intellij.ide.util.ExportDialog/0.0.1280.760@0.0.1280.760" timestamp="1629190887766" />
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1629776706795">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.0.right" timestamp="1628757441184">
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1629776706795" />
+    <state x="419" y="213" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1629276813322">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.1.bottom" timestamp="1628757441184">
+    <state x="419" y="213" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1280.760@0.0.1280.760" timestamp="1629276813322" />
+    <state x="314" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1629701448231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.1.center" timestamp="1628757441184">
+    <state x="314" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.760@0.0.1280.760" timestamp="1629701448231" />
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1629364618942">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.1.left" timestamp="1628757441184">
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1629364618942" />
+    <state width="463" height="466" key="DebuggerActiveHint" timestamp="1629785378013">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state width="860" height="244" key="GridCell.Tab.1.right" timestamp="1628757441184">
+    <state width="463" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1629785378013" />
+    <state x="123" y="60" key="DiffContextDialog" timestamp="1628757465482">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="860" height="244" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1628757441184" />
-    <state x="219" y="45" key="Registry" timestamp="1628757123149">
+    <state x="123" y="60" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1628757465482" />
+    <state x="457" y="151" key="FileChooserDialogImpl" timestamp="1629769075675">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="219" y="45" key="Registry/0.0.1280.760@0.0.1280.760" timestamp="1628757123149" />
-    <state x="219" y="52" key="SettingsEditor" timestamp="1628741803084">
+    <state x="457" y="151" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1629769075675" />
+    <state width="1238" height="26" key="GridCell.Tab.0.bottom" timestamp="1629792465490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="219" y="52" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1628741803084" />
-    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1628755405888">
+    <state width="1238" height="26" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
+    <state width="1238" height="26" key="GridCell.Tab.0.center" timestamp="1629792465490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1628755405888" />
-    <state x="14" y="170" key="new project wizard" timestamp="1628756651735">
+    <state width="1238" height="26" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
+    <state width="1238" height="26" key="GridCell.Tab.0.left" timestamp="1629792465490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="14" y="170" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1628756651735" />
+    <state width="1238" height="26" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
+    <state width="1238" height="26" key="GridCell.Tab.0.right" timestamp="1629792465490">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="26" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
+    <state width="1238" height="26" key="GridCell.Tab.1.bottom" timestamp="1629792465325">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="26" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1629792465325" />
+    <state width="1238" height="26" key="GridCell.Tab.1.center" timestamp="1629792465324">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="26" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1629792465324" />
+    <state width="1238" height="26" key="GridCell.Tab.1.left" timestamp="1629792465324">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="26" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1629792465324" />
+    <state width="1238" height="26" key="GridCell.Tab.1.right" timestamp="1629792465325">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="26" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1629792465325" />
+    <state x="171" y="38" key="Maven.ArtifactSearchDialog" timestamp="1629277220562">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="171" y="38" key="Maven.ArtifactSearchDialog/0.0.1280.760@0.0.1280.760" timestamp="1629277220562" />
+    <state x="219" y="45" key="Registry" timestamp="1629084671559">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="219" y="45" key="Registry/0.0.1280.760@0.0.1280.760" timestamp="1629084671559" />
+    <state x="242" y="2" key="SettingsEditor" timestamp="1629699581386">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="242" y="2" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1629699581386" />
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2" timestamp="1629364626637">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1629364626637" />
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1629764140339">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1629764140339" />
+    <state x="442" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1629452417560">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="442" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1629452417560" />
+    <state x="265" y="105" width="979" height="548" key="find.popup" timestamp="1629425299778">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="265" y="105" width="979" height="548" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1629425299778" />
+    <state x="5" y="117" key="new project wizard" timestamp="1629356802665">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="5" y="117" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1629356802665" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edu-stu-server8001/src/main/java/com/edu/stu/controller/StudentController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnPropertyCondition.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/SpringBootCondition.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/SpringBootCondition.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/utils/CompressUtils.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

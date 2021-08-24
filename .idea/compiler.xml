@@ -7,12 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="short-message-server" />
+        <module name="edu-stu-server8002" />
+        <module name="edu-stu-server8001" />
+        <module name="edu-stu-openfeign-clieent" />
+        <module name="Cloud-Gateway9527" />
+        <module name="edu-stu-server-8001" />
+        <module name="service-common" />
         <module name="eurekaserver7002" />
         <module name="eurekaserver7001" />
-        <module name="edu-student-server" />
+        <module name="edu-stu-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="edu-stu-server8001" target="1.8" />
       <module name="edu-student" target="1.8" />
     </bytecodeTargetLevel>
   </component>
