@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-consumer95" />
         <module name="short-message-server" />
+        <module name="service-common" />
         <module name="edu-stu-server8002" />
         <module name="edu-stu-server8001" />
         <module name="edu-stu-openfeign-clieent" />
+        <module name="ftp-server" />
         <module name="Cloud-Gateway9527" />
         <module name="edu-stu-server-8001" />
-        <module name="service-common" />
+        <module name="Spring-Ioc" />
         <module name="eurekaserver7002" />
         <module name="eurekaserver7001" />
         <module name="edu-stu-client" />

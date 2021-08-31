@@ -18,6 +18,9 @@
       <module>service-common</module>
       <module>short-message-server</module>
       <module>Cloud-Gateway9527</module>
+      <module>ftp-server</module>
+      <module>Spring-Ioc</module>
+      <module>rabbit-consumer95</module>
   </modules>
 
   <properties>

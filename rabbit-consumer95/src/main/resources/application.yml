@@ -1,0 +1,20 @@
+server:
+  port: 99
+spring:
+  application:
+    name: rabbit-consumer99
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/cloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+  devtools:
+    restart:
+      enabled: true
+  rabbitmq:
+    port: 5672
+    host: localhost
+    password: guest
+    username: guest
+    #virtual-host: /
+    publisher-returns: true

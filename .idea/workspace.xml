@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44fb5e5e-70c7-402a-8a3d-5d4171827145" name="Default Changelist" comment="eureka">
-      <change afterPath="$PROJECT_DIR$/edu-stu-client/edu-stu-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cloud-Gateway9527/src/main/java/edu/stu/gateway/filter/MyLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Gateway9527/src/main/java/edu/stu/gateway/filter/MyLogFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-stu-server8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/eduStuServer8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/eduStuServer8002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/dao/MyRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/dao/MyRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/quartz/Scheduleing.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/quartz/Scheduleing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-stu-server8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-stu-server8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver7001/target/classes/com/edu/eureka/eurekaServerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver7002/target/classes/eureka/eurekaServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/Kedong/BiaoZhunBanNewPlan/NewPlant-WaiWang/houduan/px-trade-extranet-provinces-stable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,11 +79,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.edu.rabbit.config" />
+      <recent name="com.edu.stu.sport.config" />
       <recent name="com.edu.stu.service.impl" />
       <recent name="com.edu.stu.service" />
       <recent name="com.edu.stu.mapper" />
-      <recent name="com.edu.stu.domain" />
-      <recent name="com.edu.stu.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\IDEAWorkSpace\edutiononline\edu-stu-server-8001\src\main\resources\mapper" />
@@ -102,13 +100,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.eduStuServer8002">
-    <configuration name="CompressUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.utils.CompressUtils" />
-      <module name="edu-stu-server8002" />
+  <component name="RunManager" selected="Spring Boot.rabbitConsumer99">
+    <configuration name="BookController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.zhl.controller.BookController" />
+      <module name="Spring-Ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edu.stu.sport.utils.*" />
+          <option name="PATTERN" value="com.edu.zhl.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.dao.DataForm" />
+    <configuration name="CompressUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.stu.sport.utils.CompressUtils" />
       <module name="edu-stu-server8002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edu.stu.sport.dao.*" />
+          <option name="PATTERN" value="com.edu.stu.sport.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,6 +153,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekaserver7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.eureka.EurekaServerMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekaserver7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.EurekaServerMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway9527Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.stu.gateway.Gateway9527Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="eduStuClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="edu-stu-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuClient" />
@@ -162,15 +181,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eduStuServer8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="edu-stu-server8002" />
+    <configuration name="eduStuOpenfigenClient9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-stu-openfeign-clieent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuOpenfigenClient9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eduStuServer8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-stu-server-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuServer8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rabbitConsumer99" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-consumer95" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edu.stu.*" />
+          <option name="PATTERN" value="com.edu.rabbit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.stu.eduStuServer8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.rabbit.rabbitConsumer99" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,21 +216,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DataForm" />
       <item itemvalue="Application.MyRun" />
       <item itemvalue="Application.eduStuServer8002" />
+      <item itemvalue="Application.CompressUtils" />
+      <item itemvalue="Application.BookController" />
       <item itemvalue="Spring Boot.eduStuClient" />
       <item itemvalue="Spring Boot.shortMessageServerMain" />
-      <item itemvalue="Spring Boot.eduStuServer8002" />
-      <item itemvalue="Application.CompressUtils" />
+      <item itemvalue="Spring Boot.eduStuOpenfigenClient9002" />
+      <item itemvalue="Spring Boot.EurekaServerMain7002" />
+      <item itemvalue="Spring Boot.eduStuServer8001" />
+      <item itemvalue="Spring Boot.EurekaServerMain7001" />
+      <item itemvalue="Spring Boot.Gateway9527Main" />
+      <item itemvalue="Spring Boot.rabbitConsumer99" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.rabbitConsumer99" />
         <item itemvalue="Application.eduStuServer8002" />
+        <item itemvalue="Application.BookController" />
         <item itemvalue="Application.MyRun" />
         <item itemvalue="Application.CompressUtils" />
-        <item itemvalue="Spring Boot.eduStuServer8002" />
-        <item itemvalue="Application.DataForm" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +243,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.2299421" />
+          <option name="contentProportion" value="0.23242348" />
           <treeState>
             <expand>
               <path>
@@ -256,7 +294,9 @@
       <workItem from="1629681693999" duration="6466000" />
       <workItem from="1629703468001" duration="5238000" />
       <workItem from="1629710105485" duration="357000" />
-      <workItem from="1629764141804" duration="21774000" />
+      <workItem from="1629764141804" duration="24925000" />
+      <workItem from="1629854150320" duration="7597000" />
+      <workItem from="1630380914506" duration="9951000" />
     </task>
     <task id="LOCAL-00001" summary="eureka">
       <created>1628757493827</created>
@@ -293,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629364619750</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eureka">
+      <created>1629794312840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629794312841</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eureka">
+      <created>1629794383876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629794383876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,10 +358,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="eureka" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="42" key="#Project_Structure" timestamp="1629430529845">
+    <state x="233" y="42" key="#Inspections" timestamp="1630392983036">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="42" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1629430529845" />
+    <state x="233" y="42" key="#Inspections/0.0.1280.760@0.0.1280.760" timestamp="1630392983036" />
+    <state x="233" y="42" key="#Project_Structure" timestamp="1630392950972">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="233" y="42" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1630392950972" />
     <state x="78" y="36" width="1142" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629363910940">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -320,10 +378,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="271" y="114" key="#com.intellij.ide.util.ExportDialog/0.0.1280.760@0.0.1280.760" timestamp="1629190887766" />
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1629776706795">
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1630398341851">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1629776706795" />
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1630398341851" />
     <state x="419" y="213" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1629276813322">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -332,14 +390,14 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="314" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.760@0.0.1280.760" timestamp="1629701448231" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1629794311732">
+    <state x="122" y="0" key="CommitChangelistDialog2" timestamp="1630400853267">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1629794311732" />
-    <state width="463" height="466" key="DebuggerActiveHint" timestamp="1629785378013">
+    <state x="122" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1630400853267" />
+    <state width="463" height="466" key="DebuggerActiveHint" timestamp="1630400667266">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="463" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1629785378013" />
+    <state width="463" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1630400667266" />
     <state x="123" y="60" key="DiffContextDialog" timestamp="1628757465482">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -348,38 +406,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="457" y="151" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1629769075675" />
-    <state width="1238" height="26" key="GridCell.Tab.0.bottom" timestamp="1629792465490">
+    <state width="927" height="440" key="GridCell.Tab.0.bottom" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
-    <state width="1238" height="26" key="GridCell.Tab.0.center" timestamp="1629792465490">
+    <state width="927" height="440" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.0.center" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
-    <state width="1238" height="26" key="GridCell.Tab.0.left" timestamp="1629792465490">
+    <state width="927" height="440" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.0.left" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
-    <state width="1238" height="26" key="GridCell.Tab.0.right" timestamp="1629792465490">
+    <state width="927" height="440" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.0.right" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1629792465490" />
-    <state width="1238" height="26" key="GridCell.Tab.1.bottom" timestamp="1629792465325">
+    <state width="927" height="440" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.1.bottom" timestamp="1630400764567">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1629792465325" />
-    <state width="1238" height="26" key="GridCell.Tab.1.center" timestamp="1629792465324">
+    <state width="927" height="440" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1630400764567" />
+    <state width="927" height="440" key="GridCell.Tab.1.center" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1629792465324" />
-    <state width="1238" height="26" key="GridCell.Tab.1.left" timestamp="1629792465324">
+    <state width="927" height="440" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.1.left" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1629792465324" />
-    <state width="1238" height="26" key="GridCell.Tab.1.right" timestamp="1629792465325">
+    <state width="927" height="440" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
+    <state width="927" height="440" key="GridCell.Tab.1.right" timestamp="1630400764566">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="26" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1629792465325" />
+    <state width="927" height="440" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1630400764566" />
     <state x="171" y="38" key="Maven.ArtifactSearchDialog" timestamp="1629277220562">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -388,18 +446,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="219" y="45" key="Registry/0.0.1280.760@0.0.1280.760" timestamp="1629084671559" />
+    <state x="408" y="105" key="RollbackChangesDialog" timestamp="1629870775693">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="408" y="105" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1629870775693" />
     <state x="242" y="2" key="SettingsEditor" timestamp="1629699581386">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="242" y="2" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1629699581386" />
-    <state x="233" y="116" key="Vcs.Push.Dialog.v2" timestamp="1629794316314">
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2" timestamp="1629794386081">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="116" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1629794316314" />
-    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1629764140339">
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1629794386081" />
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1629854152295">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1629764140339" />
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1629854152295" />
     <state x="442" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1629452417560">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -408,10 +470,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="265" y="105" width="979" height="548" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1629425299778" />
-    <state x="5" y="117" key="new project wizard" timestamp="1629356802665">
+    <state x="5" y="101" key="new project wizard" timestamp="1630392355543">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="5" y="117" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1629356802665" />
+    <state x="5" y="101" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1630392355543" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,6 +502,11 @@
           <url>file://$PROJECT_DIR$/edu-stu-server8002/src/main/java/com/edu/stu/sport/utils/CompressUtils.java</url>
           <line>31</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-consumer95/src/main/java/com/edu/rabbit/consumer/Consumer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

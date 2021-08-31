@@ -17,6 +17,11 @@ import java.util.List;
 import java.util.Map;
 
 @SpringBootApplication
+/**
+ * 包含springbootconfigration
+ * enableAutoconfigration
+ *
+ */
 @EnableCircuitBreaker
 @RestController
 @RequestMapping("/logins")

@@ -1,0 +1,25 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: edu-stu-openfegin-client
+eureka:
+  instance:
+    instance-id: edu-stu-openfegin-client9002
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+ribbon:
+  ReadTimeout: 2000
+  ConnectTimeout: 5000
+feign:
+  hystrix:
+    enabled: true
+
+logging:
+  level:
+    com.edu.stu.service.IEduStuService: debug
+
+
