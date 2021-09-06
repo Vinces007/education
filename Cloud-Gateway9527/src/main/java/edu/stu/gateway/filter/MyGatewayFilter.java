@@ -13,7 +13,6 @@ public class MyGatewayFilter implements GatewayFilter, Ordered {
         System.out.println("MyGatewayFilter");
         return chain.filter(exchange);
     }
-
     @Override
     public int getOrder() {
         return 0;

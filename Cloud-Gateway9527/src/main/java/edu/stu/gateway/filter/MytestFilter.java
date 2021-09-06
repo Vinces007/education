@@ -14,8 +14,6 @@ import java.util.Date;
 
 @Component
 public class MytestFilter implements GlobalFilter, Ordered {
-
-
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         System.out.println("MytestFilter"+new Date());

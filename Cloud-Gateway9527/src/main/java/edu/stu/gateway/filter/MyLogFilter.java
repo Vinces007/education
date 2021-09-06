@@ -22,13 +22,10 @@ public  class MyLogFilter implements GlobalFilter, Ordered {
         if(!t){
             exchange.getResponse().setStatusCode(HttpStatus.NOT_ACCEPTABLE);
             return exchange.getResponse().setComplete();
-
         }
         System.out.println("MyLogFilter"+new Date());
         return chain.filter(exchange);
     }
-
-
     @Override
     public int getOrder() {
         return 0;

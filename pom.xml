@@ -21,6 +21,8 @@
       <module>ftp-server</module>
       <module>Spring-Ioc</module>
       <module>rabbit-consumer95</module>
+      <module>cloud-config</module>
+      <module>cloud-config-bus-client</module>
   </modules>
 
   <properties>
